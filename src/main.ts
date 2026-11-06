@@ -124,3 +124,5 @@ Promise.all([
   .catch(() => {
     renderError('Failed to load dashboard data. Please try again later.')
   })
+
+  console.log('Dashboard data loaded successfully.')
